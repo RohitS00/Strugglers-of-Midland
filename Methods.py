@@ -28,7 +28,6 @@ class Attack:
         return self.level
 
 
-
 class Monster:
 
     def __init__(self, name, the_level):
@@ -44,8 +43,8 @@ class Monster:
             self.name, self.level
         )
 
-    def power(self):
+    def health(self):
         return self.level
 
-
-
+    def attack_power(self):
+        return random.randint(0, 150)
