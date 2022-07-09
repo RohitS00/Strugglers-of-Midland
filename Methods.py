@@ -1,6 +1,5 @@
 import random
 
-
 class Attack:
     var = 0  # attribute, for example attribute of car is model, year made, engine power, etc
 
